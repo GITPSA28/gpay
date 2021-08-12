@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="styles" href="css/own.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dropdown:hover>.dropdown-menu {
+            display: block;
+          }
+          
+          .dropdown>.dropdown-toggle:active {
+            /*Without this, clicking will make it sticky*/
+              pointer-events: none;
+          }
+        </style>
+</head>
+<body>
+
+  <div class="container my-4">
+
+    <p class="font-weight-bold">An example of bootstrap 4 dropdown hover . Easy to implement and customize. Examples of basic and advanced usage.</p>
+
+    <p>
+      <strong>Detailed documentation and more examples you can find in our 
+      <a href="https://mdbootstrap.com/docs/standard/components/dropdowns/" target="_blank">Bootstrap Dropdown Docs</a>
+      </strong> 
+    </p>
+
+		<hr>
+
+    <p class="font-weight-bold">Basic example</p>
+    
+<div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <card ><img src="googlelogo_clr_74x24px.svg"></card>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
+
+  </div>
+    
+</body>
+</html>
